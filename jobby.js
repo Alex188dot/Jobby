@@ -153,6 +153,11 @@ function resultToDisplay() {
   query1 = title.value.toLowerCase();
   query2 = place.value.toLowerCase();
 
+  // This will return an empty array if the fields are left empty with or wthout whitespaces
+  if (title.value.trim() === "" && place.value.trim() === "") {
+    return [];
+  }
+
   const filteredJobs = jobs.filter((x) => {
     return (
       x.title.toLowerCase().includes(query1) &&
