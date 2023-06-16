@@ -126,12 +126,14 @@ const jobs = [
 ];
 
 // 1) Create functions that filter out the results and test them
-let query1 = "dev".toLowerCase();
-let query2 = "us".toLowerCase();
+let testQuery1 = "dev".toLowerCase();
+let testQuery2 = "us".toLowerCase();
 
-let resultTitle = jobs.filter((x) => x.title.toLowerCase().includes(query1));
+let resultTitle = jobs.filter((x) =>
+  x.title.toLowerCase().includes(testQuery1)
+);
 let resultLocation = jobs.filter((x) =>
-  x.location.toLowerCase().includes(query2)
+  x.location.toLowerCase().includes(testQuery2)
 );
 
 console.log(resultTitle);
