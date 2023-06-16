@@ -1,7 +1,7 @@
 
 # Job Search Exercise
 
-This is the final project of Month 2 at Epicode, it is an exercise to practice creating algorithms. It is a web page that lets you search for jobs by title and location. It uses an array of job objects as the data and filters them based on what you type. The results are shown in a table with mock links to the job websites.
+This is the final project of Month 2 at Epicode, it is an exercise to practice creating algorithms with a web page that lets you search for jobs by title and location. It uses an array of job objects as the data and filters them based on what you type. The results are shown in a table with mock links to the job websites.
 
 ## How to Use It
 
