@@ -1,7 +1,7 @@
 
 # Job Search Exercise
 
-Welcome to the final project of Month 2 at Epicode, where I practiced creating algorithms with a web app that searches for jobs by title and location. The app uses a sample data set of job objects and filters them according to your input. The filtered jobs are displayed in a table with links to the job websites. You can see the web app in action here: https://alex188dot.github.io/epicode-month2-day7-day8/
+Welcome to the final project of Month 2 at Epicode, where I practiced creating algorithms with a web app that searches for jobs by title and location. The app uses a sample data set of job objects and filters them according to your input. The filtered jobs are displayed in a table with links to the job websites. You can see the web app in action here: https://alex188dot.github.io/Jobby/
 
 ## How to Use It
 
